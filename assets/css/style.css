@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.article{
+    width: 60%;
+}
+.title{
+    
+    font-weight: 700 bold ;
+    margin: 50px;
+    width: 60%;
+}
+
+.aside{
+    width: 30%;
+    }
+.article_img{
+    width: 60%;
+}
+.article_title{
+    font-weight: 500;
+    width: 60%;
+}
+.article_logo {
+    width: 30px;
+    font-weight: 400;
+}
+.article_fecha{
+    font-weight: 400; 
+    font-family: poppins regular;
+}
+.article_section .article_img .article_fecha .article_title { 
+    display: inline;
+}
+#aside .article_fecha .article_title .article_img {
+    display: inline;
+}
+.article .aside {
+    display: inline-flex;
+}
+
